@@ -1,0 +1,45 @@
+# Eaglercraft Server Properties
+# This is an example file. Copy this as server.properties and modify as needed.
+
+# The server port (default 25565)
+server-port=25565
+
+# Maximum number of players allowed to connect
+max-players=20
+
+# Game mode (0=Survival, 1=Creative, 2=Adventure)
+gamemode=0
+
+# Difficulty (0=Peaceful, 1=Easy, 2=Normal, 3=Hard)
+difficulty=1
+
+# Server message of the day (displayed when joining)
+motd=Welcome to my Eaglercraft Server!
+
+# Online mode (cracked servers use false)
+online-mode=false
+
+# Enable PVP (player vs player combat)
+pvp=true
+
+# Spawn protection radius (0 to disable)
+spawn-protection=16
+
+# World name
+level-name=world
+
+# Enable command blocks
+enable-command-block=true
+
+# View distance (in chunks)
+view-distance=10
+
+# Server IP (leave blank to bind to all interfaces)
+server-ip=
+
+# MOTD color code (optional)
+# &4 = dark red, &6 = gold, &a = green, &c = red
+# Example: mymotd=&6Welcome!
+
+# Enable structure saving
+structure-blocks=true

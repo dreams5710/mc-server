@@ -1,0 +1,28 @@
+# Server files (don't commit large binaries)
+server/eaglercraft-server.jar
+server/world/
+server/cache/
+server/logs/
+server/server.properties
+server/banned-players.txt
+server/banned-ips.txt
+server/ops.json
+server/usercache.json
+server/whitelist.json
+
+# OS files
+.DS_Store
+Thumbs.db
+*.log
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Backup files
+*.bak
+*-backup/
+world-backup/
