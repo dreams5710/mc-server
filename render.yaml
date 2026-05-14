@@ -1,11 +1,6 @@
 services:
   - type: web
     name: eaglercraft-server
-    env: java
+    env: docker
     region: oregon
     plan: free
-    buildCommand: echo "Build complete"
-    startCommand: java -Xmx512M -jar server/eaglercraft-server.jar nogui
-    envVars:
-      - key: PORT
-        value: 25565
